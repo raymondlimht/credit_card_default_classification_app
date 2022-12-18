@@ -1,0 +1,5 @@
+plotly-express==0.4.1
+pandas==1.5.2
+pillow==9.3.0           
+pickleshare==0.7.5
+streamlit==1.16.0
