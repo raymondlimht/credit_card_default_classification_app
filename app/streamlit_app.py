@@ -4,8 +4,8 @@ from PIL import Image
 import pandas as pd
 import plotly.express as px
 
-rf = pickle.load(open('../models/model','rb'))
-encoder = pickle.load(open('../models/encoder','rb'))
+rf = pickle.load(open('../models/model.pkl','rb'))
+encoder = pickle.load(open('../models/encoder.pkl','rb'))
 cm = Image.open('../img/cm.png') 
 cm_sample = Image.open('../img/Confusion-Matrix-1-635x358.jpeg') 
 
