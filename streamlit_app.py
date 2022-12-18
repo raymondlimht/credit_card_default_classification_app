@@ -36,7 +36,7 @@ st.caption(" LinkedIn: [raymondlimht](https://www.linkedin.com/in/raymondlimht/)
 st.subheader("Introduction")
 st.markdown("This is a credit card default detection system uses machine learning algorithm called Random Forest Classifier to detect which customers are at risk of defaulting on their credit card payments. This can help credit card companies to identify customers who may need additional support or who may be at higher risk of defaulting, so that they can take appropriate action to mitigate the risk.")
 st.subheader("Getting Started")
-st.markdown('''Here are detailed instructions for using a credit card default detection system web application: \n
+st.markdown('''Here are the detailed instructions for using a credit card default detection system web application: \n
 1. On the side bar, you should see a form to input the client profile. Enter the required information, such as the client's age, gender, credit score, and yearly income. \n
 2. Once you have entered all of the required information, click the button labeled "Click to predict credit card default!" to proceed. \n
 3. The web application will process the inputted information and predict credit card default. The model will determine whether the credit card holder is likely to default on their payments and will issue a warning if necessary. A higher default probability indicates a higher likelihood of credit card default.''')
@@ -90,7 +90,7 @@ with st.sidebar:
         migrant_worker = 0
 
 st.markdown('---')  
-st.subheader('Prediction Outcome:')
+st.subheader('Prediction Outcome')
 
 
 input = {
@@ -157,7 +157,7 @@ elif predictions[0] == 0 :
 There is a {:.2f}% probability that the credit card holder will default on their payments, according to the prediction model.'''.format(pct_fraud))
 
 
-st.subheader('Additional information about the credit card holder:')
+st.subheader('Additional information about the credit card holder')
 
 st.markdown(
 ''' - Cash Balance <sup> 1 </sup> = $ {:.2f} \n
