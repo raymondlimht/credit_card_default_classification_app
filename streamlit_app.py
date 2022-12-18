@@ -34,7 +34,7 @@ st.title("Credit Card Default Detection System")
 st.caption('Made by Raymond Lim')
 st.caption(" LinkedIn: [raymondlimht](https://www.linkedin.com/in/raymondlimht/), Github repo: [link](https://github.com/raymondlimht).")
 st.subheader("Introduction")
-st.markdown("This is a credit card default detection system uses machine learning algorithm called a Random Forest Classifier to detect which customers are at risk of defaulting on their credit card payments. This can help credit card companies to identify customers who may need additional support or who may be at higher risk of defaulting, so that they can take appropriate action to mitigate the risk.")
+st.markdown("This is a credit card default detection system uses machine learning algorithm called Random Forest Classifier to detect which customers are at risk of defaulting on their credit card payments. This can help credit card companies to identify customers who may need additional support or who may be at higher risk of defaulting, so that they can take appropriate action to mitigate the risk.")
 st.subheader("Getting Started")
 st.markdown('''Here are detailed instructions for using a credit card default detection system web application: \n
 1. On the side bar, you should see a form to input the client profile. Enter the required information, such as the client's age, gender, credit score, and yearly income. \n
